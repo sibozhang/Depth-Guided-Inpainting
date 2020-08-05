@@ -16,7 +16,7 @@ Sample data:
 
 [sample_data.zip](https://www.dropbox.com/s/lm1rxhdfqor68z6/1534313590-1534313597.zip?dl=0)
 
-[sample_lidar_bg.zip](https://www.dropbox.com/s/e8km9r0ginxuuak/1534313590-1534313597_lidar_bg.zip?dl=0)
+[sample_lidar_bg.zip](https://www.dropbox.com/s/7ijiw6fjmfjz3yk/lidar_bg.zip?dl=0)
 
 
 ## Data Structure
@@ -26,7 +26,7 @@ The folder structure of the inpainting is as follows:
 
 2) xxx-yyy.zip: Data includes ds_map.ply, global_poses.txt, rel_poses.txt, xxx.aaa_optR.xml. ds_map.ply is dense map build from lidar frames. 
 
-3) xxx-yyy_lidar_bg.zip: lidar background point cloud in ply format.
+3) lidar_bg.zip: lidar background point cloud in ply format.
 
 ## Set up
 
