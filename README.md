@@ -12,9 +12,9 @@ Please download data at [Apolloscape](http://apolloscape.auto/inpainting.html). 
 
 Sample data: 
 
-[sample_mask_and_image.zip](https://www.dropbox.com/s/6arza9ee72slr69/1534313590-1534313597_mask.zip?dl=0)
+[sample_mask_and_image.zip](https://www.dropbox.com/s/e6w9qzrxyxe17x1/1534313590-1534313597_mask.zip?dl=0)
 
-[sample_data.zip](https://www.dropbox.com/s/lm1rxhdfqor68z6/1534313590-1534313597.zip?dl=0)
+[sample_data.zip](https://www.dropbox.com/s/41el9iy9tzd955i/1534313590-1534313597.zip?dl=0)
 
 [sample_lidar_bg.zip](https://www.dropbox.com/s/7ijiw6fjmfjz3yk/lidar_bg.zip?dl=0)
 
