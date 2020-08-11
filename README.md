@@ -31,7 +31,9 @@ The folder structure of the inpainting is as follows:
 ## Data Prepareation
 
     catkin_ws
-    ├── ...
+    ├── build
+    ├── devel
+    ├── src   
     code
     ├── libDAI-0.3.0
     ├── opengm
