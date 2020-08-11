@@ -1,0 +1,8 @@
+prefix=./devel
+
+Name: catkin_simple
+Description: Description of catkin_simple
+Version: 0.1.1
+Cflags: 
+Libs: -L./devel/lib 
+Requires: catkin

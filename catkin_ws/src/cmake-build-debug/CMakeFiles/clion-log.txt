@@ -1,0 +1,9 @@
+../clion-2019.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" ./src
+CMake Error at CMakeLists.txt:59 (message):
+  find_package(catkin) failed.  catkin was neither found in the workspace nor
+  in the CMAKE_PREFIX_PATH.  One reason may be that no ROS setup.sh was
+  sourced before.
+
+
+-- Configuring incomplete, errors occurred!
+See also "./src/cmake-build-debug/CMakeFiles/CMakeOutput.log".
