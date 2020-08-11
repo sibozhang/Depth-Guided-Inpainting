@@ -28,10 +28,50 @@ The folder structure of the inpainting is as follows:
 
 3) lidar_bg.zip: lidar background point cloud in ply format.
 
+## Data Prepareation
+
+    catkin_ws
+    ├── ...
+    code
+    ├── libDAI-0.3.0
+    ├── opengm
+    data
+    ├── pandora_liang
+        ├── set2
+              ├── 1534313590-1534313597
+              ├── 1534313590-1534313597_mask
+              ├── 1534313590-1534313597_results
+              ├── lidar_bg
+              ├── ...
+
+    
 ## Set up
+Install opengm
+download OpenGM 2.3.5 at http://hciweb2.iwr.uni-heidelberg.de/opengm/index.php?l0=library 
+
+or
+
+Go to Github https://github.com/opengm/opengm for version 2.0.2 to use code/opengm/
+
+First build opengm with MRF:
+
+    mkdir build
+    cd build 
+    cmake -DWITH_MRF=ON ..
+    make
+    sudo Make install
+
+Then make catkin:
+
+    ~/catkin_ws$ source devel/setup.bash
+    ~/catkin_ws$ catkin_make
+
 
 ## Evaluation
 
+    ~/catkin_ws$ rosrun loam_velodyne videoInpaintingTexSynthFusion 1534313590 1534313597 1534313594 ../data/pandora_liang/set2
+
+    
 ## Citation
 Please cite our paper in your publications if our dataset is used in your research.
 
@@ -49,3 +89,16 @@ Miao Liao, Feixiang Lu, Dingfu Zhou, Sibo Zhang, Wei Li, Ruigang Yang.  ECCV 202
 ```
 
 [![Depth Guided Video Inpainting for Autonomous Driving](https://res.cloudinary.com/marcomontalbano/image/upload/v1595308220/video_to_markdown/images/youtube--iOIxdQIzjQs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=iOIxdQIzjQs "Depth Guided Video Inpainting for Autonomous Driving")
+
+
+## Q & A
+Get MRF-LIB working within opengm2:
+
+    ~/code/opengm/build$ cmake -DWITH_MRF=ON ..  #turn on MRF option within opengm cmake
+    ~/code/opengm/src/external/patches/MRF$ ./patchMRF-v2.1.sh
+    
+    Change to:
+    TRWS_URL=https://download.microsoft.com/download/6/E/D/6ED0E6CF-C06E-4D4E-9F70-C5932795CC12/
+    Within patchMRF-v2.1.sh
+
+
