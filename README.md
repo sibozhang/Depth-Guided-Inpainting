@@ -46,30 +46,37 @@ The folder structure of the inpainting is as follows:
 
     
 ## Set up
-Install opengm
-download OpenGM 2.3.5 at http://hciweb2.iwr.uni-heidelberg.de/opengm/index.php?l0=library 
+1. Install opengm
+    
+    download OpenGM 2.3.5 at http://hciweb2.iwr.uni-heidelberg.de/opengm/index.php?l0=library 
 
-or
+    or
 
-Go to Github https://github.com/opengm/opengm for version 2.0.2 to use code/opengm/
+    https://github.com/opengm/opengm for version 2.0.2
 
-First build opengm with MRF:
-
+2. Build opengm with MRF:
+    
+    ```
+    cd code/opengm
     mkdir build
     cd build 
     cmake -DWITH_MRF=ON ..
     make
-    sudo Make install
-
-Then make catkin:
-
-    ~/catkin_ws$ source devel/setup.bash
-    ~/catkin_ws$ catkin_make
-
+    sudo make install
+    ```
+    
+3. Make catkin:
+    
+    ```
+    cd catkin_ws
+    source devel/setup.bash
+    catkin_make
+    ```
 
 ## Evaluation
 
-    ~/catkin_ws$ rosrun loam_velodyne videoInpaintingTexSynthFusion 1534313590 1534313597 1534313594 ../data/pandora_liang/set2
+    cd catkin_ws 
+    rosrun loam_velodyne videoInpaintingTexSynthFusion 1534313590 1534313597 1534313594 ../data/pandora_liang/set2
 
     
 ## Citation
