@@ -99,10 +99,12 @@ Miao Liao, Feixiang Lu, Dingfu Zhou, Sibo Zhang, Wei Li, Ruigang Yang.  ECCV 202
 }
 ```
 
-Presentation Video
+ECCV 2020 Presentation Video
+
 [![Depth Guided Video Inpainting for Autonomous Driving](https://res.cloudinary.com/marcomontalbano/image/upload/v1598335918/video_to_markdown/images/youtube--_pcqH1illCU-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=_pcqH1illCU&feature=youtu.be "Depth Guided Video Inpainting for Autonomous Driving")
 
 Result Video
+
 [![Depth Guided Video Inpainting for Autonomous Driving](https://res.cloudinary.com/marcomontalbano/image/upload/v1595308220/video_to_markdown/images/youtube--iOIxdQIzjQs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=iOIxdQIzjQs "Depth Guided Video Inpainting for Autonomous Driving")
 
 ## Q & A
