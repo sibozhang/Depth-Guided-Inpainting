@@ -1,7 +1,5 @@
 # Depth-Guided-Inpainting
-This is code for "DVI: Depth Guided Video Inpainting for Autonomous Driving".
-
-Miao Liao, Feixiang Lu, Dingfu Zhou, Sibo Zhang, Wei Li, Ruigang Yang.  ECCV 2020.
+This is code for "DVI: Depth Guided Video Inpainting for Autonomous Driving". ECCV 2020.
 
 ### Video Inpainting:
 ![](./inpainting.gif)
