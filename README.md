@@ -9,9 +9,9 @@ This is code for "DVI: Depth Guided Video Inpainting for Autonomous Driving". EC
 To get clear street-view and photo-realistic simulation in autonomous driving, we present an automatic video inpainting algorithm that can remove traffic agents from videos and synthesize missing regions with the guidance of depth/point cloud. By building a dense 3D map from stitched point clouds, frames within a video are geometrically correlated via this common 3D map. In order to fill a target inpainting area in a frame, it is straightforward to transform pixels from other frames into the current one with correct occlusion. Furthermore, we are able to fuse multiple videos through 3D point cloud registration, making it possible to inpaint a target video with multiple source videos. 
 
 ## Data preparation
-Please download full data at [Apolloscape](http://apolloscape.auto/inpainting.html) or using link below. The first video inpainting dataset with depth. 
+Inpainting dataset consists of synchronized Labeled image and LiDAR scanned point clouds. It captured by HESAI Pandora All-in-One Sensing Kit. It is collected under various lighting conditions and traffic densities in Beijing, China.
 
-<!---
+Please download full data at [Apolloscape](http://apolloscape.auto/inpainting.html) or using link below. The first video inpainting dataset with depth.
 Sample data: 
 [sample_mask_and_image.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2Fsample_mask_and_image.zip)
 [sample_data.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2Fsample_data.zip)
