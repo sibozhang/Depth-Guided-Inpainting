@@ -1,5 +1,5 @@
 # Depth-Guided-Inpainting
-This is code for "DVI: Depth Guided Video Inpainting for Autonomous Driving". ECCV 2020.
+This is code for "DVI: Depth Guided Video Inpainting for Autonomous Driving". ECCV 2020. [Project Page](https://sites.google.com/view/sibozhang/DVI) 
 
 ### Video Inpainting:
 ![](./inpainting.gif)
