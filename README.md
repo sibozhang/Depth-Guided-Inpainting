@@ -67,7 +67,9 @@ The folder structure of the inpainting is as follows:
 
     
 ## Set up
-1. Install opengm
+1. Install ROS Kinetic at http://wiki.ros.org/ROS/Installation
+
+2. Install opengm
     
     download OpenGM 2.3.5 at http://hciweb2.iwr.uni-heidelberg.de/opengm/index.php?l0=library 
 
@@ -75,7 +77,7 @@ The folder structure of the inpainting is as follows:
 
     https://github.com/opengm/opengm for version 2.0.2
 
-2. Build opengm with MRF:
+3. Build opengm with MRF:
     
     ```
     cd code/opengm
@@ -86,7 +88,7 @@ The folder structure of the inpainting is as follows:
     sudo make install
     ```
     
-3. Make catkin:
+4. Make catkin:
     
     ```
     cd catkin_ws
