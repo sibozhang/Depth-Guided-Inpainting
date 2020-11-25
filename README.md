@@ -11,7 +11,8 @@ To get clear street-view and photo-realistic simulation in autonomous driving, w
 ## Data preparation
 Inpainting dataset consists of synchronized Labeled image and LiDAR scanned point clouds. It captured by HESAI Pandora All-in-One Sensing Kit. It is collected under various lighting conditions and traffic densities in Beijing, China.
 
-Please download full data at [Apolloscape](http://apolloscape.auto/inpainting.html) or using link below. The first video inpainting dataset with depth.
+Please download full data at [Apolloscape](http://apolloscape.auto/inpainting.html) or using link below. The first video inpainting dataset with depth. The synced lidar and image data also can be used for 3D perception and other tasks.
+
 Sample data: 
 [sample_mask_and_image.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2Fsample_mask_and_image.zip)
 [sample_data.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2Fsample_data.zip)
@@ -101,6 +102,25 @@ The folder structure of the inpainting is as follows:
     cd catkin_ws 
     rosrun loam_velodyne videoInpaintingTexSynthFusion 1534313590 1534313597 1534313594 ../data/pandora_liang/set2
 
+## How to label your own data and build 3D map 
+
+1. Label Mask image of inpainting area
+
+    ```
+    python label_mask.py
+    ```
+    
+    F: forward 
+    S: undo
+    D: backward
+
+2. Build 3D map from lider frames
+    
+    ```
+    LoamMapper.cpp
+    ```
+    
+    Get global_pose.txt rel_pose.txt. Use meshlab to visualize ds_map.ply
     
 ## Citation
 Please cite our paper in your publications if our dataset is used in your research.
