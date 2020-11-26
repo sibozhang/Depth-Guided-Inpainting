@@ -117,7 +117,7 @@ The folder structure of the inpainting is as follows:
 2. Build 3D map from lider frames
     
     ```
-    LoamMapper.cpp
+    rosrun loam_velodyne loamMapper 1534313591 1534313599 /disk1/data/pandora_liang/set2
     ```
     
     Get global_pose.txt rel_pose.txt. Use meshlab to visualize ds_map.ply
