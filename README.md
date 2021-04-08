@@ -123,7 +123,7 @@ The folder structure of the inpainting is as follows:
     Get global_pose.txt rel_pose.txt. Use meshlab to visualize ds_map.ply
     
 ## Citation
-Please cite our paper in your publications if our dataset is used in your research.
+Please cite our paper in your publications.
 
 DVI: Depth Guided Video Inpainting for Autonomous Driving.
 
