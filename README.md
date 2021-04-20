@@ -18,10 +18,14 @@ Sample data:
 [sample_mask_and_image.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2Fsample_mask_and_image.zip)
 [sample_data.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2Fsample_data.zip)
 [sample_lidar_bg.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2Fsample_lidar_bg.zip)
+
+<!--- 
 [sample_mask_and_image.zip](https://www.dropbox.com/s/e6w9qzrxyxe17x1/1534313590-1534313597_mask.zip?dl=0)
 [sample_data.zip](https://www.dropbox.com/s/41el9iy9tzd955i/1534313590-1534313597.zip?dl=0)
 [sample_lidar_bg.zip](https://www.dropbox.com/s/7ijiw6fjmfjz3yk/lidar_bg.zip?dl=0)
--->
+--->
+
+Full data:
 
 [mask_and_image_0.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2F1534313570-1534313579_mask.zip)
 [data_0.zip](https://ad-apolloscape.cdn.bcebos.com/inpainting%2F1534313570-1534313579.zip)
