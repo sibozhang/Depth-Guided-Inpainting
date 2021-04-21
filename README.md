@@ -1,3 +1,6 @@
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dvi-depth-guided-video-inpainting-for/image-inpainting-on-apolloscape)](https://paperswithcode.com/sota/image-inpainting-on-apolloscape?p=dvi-depth-guided-video-inpainting-for)
+
 # Depth-Guided-Inpainting
 This is code for "DVI: Depth Guided Video Inpainting for Autonomous Driving". ECCV 2020. [Project Page](https://sites.google.com/view/sibozhang/dvi) 
 
