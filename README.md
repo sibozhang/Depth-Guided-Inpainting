@@ -106,9 +106,15 @@ The folder structure of the inpainting is as follows:
     ```
 
 ## Evaluation
-
     cd catkin_ws 
     rosrun loam_velodyne videoInpaintingTexSynthFusion 1534313590 1534313597 1534313594 ../data/pandora_liang/set2
+
+
+## Baseline result
+
+| Method | MAE   | RMSE  | PSNR   | SSIM  |
+|--------|-------|-------|--------|-------|
+| DVI    | 6.135 | 9.633 | 21.631 | 0.895 |
 
 ## How to label your own data and build 3D map 
 
